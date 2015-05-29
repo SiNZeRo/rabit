@@ -34,3 +34,7 @@
 *tmp*
 *.rabit
 *.mock
+
+#vc_trash
+*.log
+*.pdb
