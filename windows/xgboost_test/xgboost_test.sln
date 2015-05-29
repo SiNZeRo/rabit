@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "speed_test", "speed_test\speed_test.vcxproj", "{A6A95246-EB0A-46BA-9471-5939CB6B0006}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmeans", "kmeans\kmeans.vcxproj", "{EADA533A-1A73-4563-81E5-9F04E30D3EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Debug|Win32.Build.0 = Debug|Win32
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Debug|x64.ActiveCfg = Debug|x64
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Debug|x64.Build.0 = Debug|x64
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Release|Win32.ActiveCfg = Release|Win32
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Release|Win32.Build.0 = Release|Win32
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Release|x64.ActiveCfg = Release|x64
+		{A6A95246-EB0A-46BA-9471-5939CB6B0006}.Release|x64.Build.0 = Release|x64
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Debug|Win32.Build.0 = Debug|Win32
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Debug|x64.ActiveCfg = Debug|Win32
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Release|Win32.ActiveCfg = Release|Win32
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Release|Win32.Build.0 = Release|Win32
+		{EADA533A-1A73-4563-81E5-9F04E30D3EFB}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

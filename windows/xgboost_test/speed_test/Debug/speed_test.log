@@ -1,0 +1,23 @@
+﻿Build started 21/5/2015 15:25:46.
+     1>Project "D:\data\wttian\dev\dmlc\rabit\windows\xgboost_test\speed_test\speed_test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\speed_test.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\test\speed_test.cc
+         speed_test.cc
+     1>d:\data\wttian\dev\dmlc\rabit\include\rabit\utils.h(158): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\data\wttian\dev\dmlc\rabit\test\speed_test.cc(18): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+     1>d:\data\wttian\dev\dmlc\rabit\test\speed_test.cc(30): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\test\speed_test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\speed_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\data\wttian\dev\dmlc\rabit\test\speed_test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\test\speed_test.lib" /MACHINE:X86 Debug\speed_test.obj
+     1>speed_test.obj : error LNK2019: unresolved external symbol "void __cdecl rabit::engine::Init(int,char * * const)" (?Init@engine@rabit@@YAXHQAPAD@Z) referenced in function "void __cdecl rabit::Init(int,char * * const)" (?Init@rabit@@YAXHQAPAD@Z)
+     1>speed_test.obj : error LNK2019: unresolved external symbol "void __cdecl rabit::engine::Finalize(void)" (?Finalize@engine@rabit@@YAXXZ) referenced in function "void __cdecl rabit::Finalize(void)" (?Finalize@rabit@@YAXXZ)
+     1>speed_test.obj : error LNK2019: unresolved external symbol "class rabit::engine::IEngine * __cdecl rabit::engine::GetEngine(void)" (?GetEngine@engine@rabit@@YAPAVIEngine@12@XZ) referenced in function "int __cdecl rabit::GetWorldSize(void)" (?GetWorldSize@rabit@@YAHXZ)
+     1>speed_test.obj : error LNK2019: unresolved external symbol "void __cdecl rabit::engine::Allreduce_(void *,unsigned int,unsigned int,void (__cdecl*)(void const *,void *,int,class MPI::Datatype const &),enum rabit::engine::mpi::DataType,enum rabit::engine::mpi::OpType,void (__cdecl*)(void *),void *)" (?Allreduce_@engine@rabit@@YAXPAXIIP6AXPBX0HABVDatatype@MPI@@@ZW4DataType@mpi@12@W4OpType@612@P6AX0@Z0@Z) referenced in function "void __cdecl rabit::Allreduce<struct rabit::op::Max,float>(float *,unsigned int,void (__cdecl*)(void *),void *)" (??$Allreduce@UMax@op@rabit@@M@rabit@@YAXPAMIP6AXPAX@Z1@Z)
+     1>..\..\..\test\speed_test.exe : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "D:\data\wttian\dev\dmlc\rabit\windows\xgboost_test\speed_test\speed_test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.26
